@@ -14,15 +14,29 @@ public class Magic8Ball {
 
 		// 2. Make a variable that will hold a random number and put a random number
 		// into this variable using "new Random().nextInt(4)"
+
+		JOptionPane.showInputDialog("");
 		Random r = new Random();
 
-		int hi = r.nextInt(4);
+		int hi = r.nextInt(5);
 
 		System.out.println(hi);
-		JOptionPanel.
-		
-		if(hi.equalsIgnoreCase(0)
 
+		if (hi == 0) {
+			JOptionPane.showMessageDialog(null, "YES");
+		}
+
+		else if (hi == 1) {
+			JOptionPane.showMessageDialog(null, "NO");
+		}
+
+		else if (hi == 2) {
+			JOptionPane.showMessageDialog(null, "MAYBE YOU SHOULD ASK SIRI");
+		}
+
+		else if (hi == 3) {
+			JOptionPane.showMessageDialog(null, "TRY AGAIN");
+		}
 		// 3. Print out this variable
 
 		// 4. Get the user to enter a question for the 8 ball
