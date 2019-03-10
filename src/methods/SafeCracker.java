@@ -17,9 +17,19 @@ public class SafeCracker {
 		/*
 		 * Your mission: use the tryCode method to crack the safe by trying all possible
 		 * combinations
-		 */
+		*/
 		
+		for (int i = 9999900; i < 10000000.; i++) {
+		tryCode(i);
+		
+		
+		}
+	
+	}
 
+	private static void tryCode(String string) {
+		// TODO Auto-generated method stub
+		
 	}
 
 	static void tryCode(int guess) {
